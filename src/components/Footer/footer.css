@@ -1,0 +1,327 @@
+.footer {
+    background-color: #1c1f2e;
+    color: #fff;
+    padding-bottom: 1rem;
+    font-size: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+  
+  
+  .payment-methods-wrapper {
+    background-color: rgba(20, 22, 33, 0.7);
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .payment-methods {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+  }
+
+  .conventional-payments {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .conventional-payments img {
+    height: 45px;
+    object-fit: contain;
+  }
+
+  .crypto-payments {
+    display: flex;
+    align-items: center;
+  }
+
+  .crypto-payments img {
+    height: 38px;
+    object-fit: contain;
+    margin-right: -12px;
+  }
+
+  .crypto-payments img:last-child {
+    margin-right: 0;
+  }
+
+  .more-text {
+    color: #666;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+  
+  .social-wrapper {
+    padding: 1rem 0 2rem;
+  }
+
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+  }
+
+  .social-icon-container {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.2s;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  .social-icon-container.facebook:hover {
+    background: #1877f2;
+    transform: translateY(-2px);
+  }
+
+  .social-icon-container.instagram:hover {
+    background: #e4405f;
+    transform: translateY(-2px);
+  }
+
+  .social-icon-container.twitter:hover {
+    background: #000000;
+    transform: translateY(-2px);
+  }
+
+  .social-icon-container.discord:hover {
+    background: #5865F2;
+    transform: translateY(-2px);
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem auto;
+    max-width: 1000px;
+    padding: 3rem 2.5rem 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-section {
+  min-width: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .footer-section.brand {
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer-section.brand .footer-logo {
+    height: 40px;
+    margin-bottom: 0.5rem;
+    filter: brightness(0) invert(1);
+  }
+
+  .footer-section.brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-section.brand a:hover {
+    opacity: 1;
+    color: #00d991;
+  }
+  
+  .footer-section h4 {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+  
+  .footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+  
+  .footer-section ul li {
+    margin-bottom: 0.75rem;
+  }
+
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  .footer-section ul li a:hover {
+    opacity: 1;
+    color: #00d991;
+  }
+
+  .footer-section.trustpilot {
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .trustpilot img {
+    height: 24px;
+    margin-bottom: 0.25rem;
+  }
+
+  .trustpilot span {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    display: block;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    border: none;
+  }
+
+  @media (max-width: 900px) {
+    .payment-methods-wrapper {
+      padding: 1.25rem 0;
+    }
+
+    .social-wrapper {
+      padding: 0.75rem 0 1.5rem;
+    }
+
+    .payment-methods,
+    .footer-socials,
+    .footer-content {
+      padding: 0 2rem;
+    }
+
+    .payment-methods,
+    .footer-socials {
+      gap: 1.5rem;
+    }
+
+    .footer-content {
+      gap: 2rem;
+      margin: 1.5rem auto;
+    }
+
+    .social-icon-container {
+      width: 38px;
+      height: 38px;
+    }
+
+    .conventional-payments {
+      gap: 1.2rem;
+    }
+
+    .conventional-payments img {
+      height: 40px;
+    }
+
+    .crypto-payments img {
+      height: 34px;
+      margin-right: -10px;
+    }
+
+    .footer-section.brand .footer-logo {
+      height: 35px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .payment-methods-wrapper {
+      padding: 1rem 0;
+    }
+
+    .social-wrapper {
+      padding: 0.5rem 0 1rem;
+    }
+
+    .payment-methods,
+    .footer-socials,
+    .footer-content {
+      padding: 0 1rem;
+      gap: 1rem;
+    }
+
+    .payment-methods {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 1rem auto;
+    }
+
+    .footer-section {
+      min-width: unset;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .footer-section.brand {
+      margin-bottom: 1rem;
+    }
+
+    .footer-section.brand .footer-logo {
+      height: 30px;
+    }
+
+    .social-icon-container {
+      width: 34px;
+      height: 34px;
+    }
+
+    .conventional-payments img {
+      height: 35px;
+    }
+
+    .crypto-payments img {
+      height: 30px;
+      margin-right: -8px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .footer {
+      padding: 1.5rem 1rem;
+    }
+  }

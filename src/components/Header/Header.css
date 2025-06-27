@@ -1,0 +1,169 @@
+.main-header {
+  background-color: #0f1428;
+  padding: 0.75rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  height: 42px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-logo {
+  height: 32px;
+  width: auto;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 100%;
+  margin-top: 12px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.cart-button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart-button .cart-icon {
+  width: 20px;
+  height: 20px;
+  color: currentColor;
+}
+
+.cart-button:hover {
+  border-color: #00d991;
+  color: #00d991;
+}
+
+.sign-in-button {
+  background: #00d991;
+  border: none;
+  color: #0f1428;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.sign-in-button .user-icon {
+  width: 20px;
+  height: 20px;
+  color: #0f1428;
+}
+
+.sign-in-button:hover {
+  background: #00c583;
+}
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.cart-indicator {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #00d991;
+  color: #0f1428;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .main-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .header-left {
+    gap: 1.5rem;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-actions {
+    gap: 0.5rem;
+  }
+
+  .cart-button,
+  .sign-in-button {
+    padding: 0.5rem;
+  }
+} 
+
+@media (max-width: 1024px) {
+    .main-header {
+      padding: 0.75rem 1rem;
+    }
+  
+    .menu-button {
+      display: block;
+    }
+  
+    .header-nav {
+      display: none;
+    }
+  
+    .header-actions {
+      display: none;
+    }
+  }
