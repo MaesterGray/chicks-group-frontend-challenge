@@ -2,25 +2,38 @@
 
 A modern game item shop interface built with React and TypeScript.
 
+## 🔗 Quick Links
+- **Live Demo**: [View Application](https://chicks-rontend-challenge.netlify.app/)
+- **Repository**: [GitHub](https://github.com/MaesterGray/chicks-group-frontend-challenge.git)
+
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v16 or higher)
 - pnpm (recommended) or npm
 
-### Running the Application
+### Installation and Setup
 
-1. Install dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/MaesterGray/chicks-group-frontend-challenge.git
+cd chicks-group-frontend-challenge
+```
+
+2. Install dependencies:
 ```bash
 pnpm install
 ```
 
-2. Start the development server:
+3. Start the development server:
 ```bash
 pnpm dev
 ```
 
 The application will be available at `http://localhost:5173`
+
+### Live Demo
+You can view the deployed application at [https://chicks-rontend-challenge.netlify.app/](https://chicks-rontend-challenge.netlify.app/)
 
 ## Design Choices
 
